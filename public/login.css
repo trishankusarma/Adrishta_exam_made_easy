@@ -1,0 +1,74 @@
+body{
+    background-image: url(img/book\ 1.png);
+    background-color: #1A1919;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+h1{
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 10vh;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 1.7vh;
+}
+
+.probinfo{
+
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 3% 30% 2% 30%;
+}
+
+.username{
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+   border-radius: 2rem;
+    background-color: transparent;
+    color: whitesmoke;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+::placeholder{
+    color: whitesmoke;
+    padding-left: 2%;
+    
+}
+#login_button{
+    text-align: center;
+    justify-content: center; 
+    border-radius: 20px;
+    background-color: #1A1919;
+    color: azure;
+    border: none;
+    padding: 0.5% 2% 0.5% 2%;
+    outline: none;
+}
+#login_button:hover{
+    background-color: black;
+    color: white;
+}
+.button{
+    text-align: center;
+    justify-content: center; 
+}
+h2{
+    text-align: center;
+    justify-content: center; 
+    margin-top: 10%;
+    color: #CACACA;
+    font-size: 3vh;
+}
+html{
+    overflow: hidden;
+   
+}
+input:focus{
+    outline: none;
+}
