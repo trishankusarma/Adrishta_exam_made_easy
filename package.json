@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
-    "mongoose": "^5.10.18"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.18",
+    "nodemon": "^2.0.6",
+    "validator": "^13.1.17"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
