@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam Hall</title>
+<link rel="stylesheet" href="examhall.css"> 
+
+</head>
+<body>
+    <!-- <div class="pos-f-t navs">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="plus"><img src="img/plus.png"></span>
+        </nav>
+      </div> -->
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="plus"><img src="img/plus.png"></div>
+      </div>
+      
+
+      <div class="exams">
+        <div class="card">
+           <div class="subname">
+               <h1>DATA STRUCTURE</h1>
+           </div>
+            <div class="contain">
+              <h4><b>Jane Doe</b></h4> 
+              <p>Interior Designer</p> 
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="subname">
+                <h1>HUMANITIES</h1>
+            </div>
+
+             <div class="contain">
+               <h4><b>Jane Doe</b></h4> 
+               <p>Interior Designer</p> 
+             </div>
+        </div>
+
+           <div class="card">
+            <div class="subname">
+                <h1>ELECTRONICS</h1>
+            </div>
+             <div class="contain">
+               <h4><b>Jane Doe</b></h4> 
+               <p>Interior Designer</p> 
+             </div>
+           </div>
+         
+           
+      </div>
+    
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>

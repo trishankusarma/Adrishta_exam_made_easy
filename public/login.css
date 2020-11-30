@@ -2,7 +2,7 @@ body{
     background-image: url(img/book\ 1.png);
     background-color: #1A1919;
     background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  /* Do not repeat the image */
   background-size: cover;
 }
 h1{
